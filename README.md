@@ -36,7 +36,7 @@ import VueMobileDrag from '@xccjh/vue-mobile-drag';
 Vue.use(VueMobileDrag)
 ```
 
-## step 2
+### step 2
 
 attach dom to use v-mobile-drag directives，set getFabricDragOpts to get config object .
 
