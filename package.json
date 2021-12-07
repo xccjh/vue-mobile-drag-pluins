@@ -1,0 +1,24 @@
+{
+  "name": "@xccjh/vue-mobile-drag",
+  "version": "0.0.1",
+  "description": "vue仿原生移动端拖拽功能实现插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/xccjh/vue-mobile-drag-pluins.git"
+  },
+  "keywords": [
+    "移动端",
+    "仿原生",
+    "拖拽检测"
+  ],
+  "author": "zoujiahe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitee.com/xccjh/vue-mobile-drag-pluins/issues"
+  },
+  "homepage": "https://gitee.com/xccjh/vue-mobile-drag-pluins#readme"
+}
