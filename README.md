@@ -16,7 +16,7 @@ vue仿原生移动端拖拽功能实现插件，集成封装vue指令,实现类�
 
 You can install it via npm or yarn :
 
-您可以通过npm或Thread进行安装 ：
+您可以通过npm或yarn进行安装 ：
 
 ```html
 npm install @xccjh/vue-mobile-drag
