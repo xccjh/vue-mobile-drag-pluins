@@ -13,7 +13,9 @@
   "keywords": [
     "移动端",
     "仿原生",
-    "拖拽检测"
+    "拖拽检测",
+    "vue2",
+    "vue3"
   ],
   "author": "zoujiahe",
   "license": "MIT",

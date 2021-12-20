@@ -1,8 +1,8 @@
 ## Introduction
 
-Vue imitates the drag function of the native mobile terminal to realize the plug-in, integrates and encapsulates Vue instructions, and realizes the function similar to the drag application of mobile phone .
+Vue imitates the drag function of the native mobile terminal to realize the plug-in, integrates and encapsulates Vue instructions, and realizes the function similar to the drag application of mobile phone , Compatible with vue2 and vue3 .
 
-vue仿原生移动端拖拽功能实现插件，集成封装vue指令,实现类似手机拖拽应用的功能。
+vue仿原生移动端拖拽功能实现插件，集成封装vue指令，实现类似手机拖拽应用的功能，兼容vue2和vue3。
 
 1. demo feature:
 

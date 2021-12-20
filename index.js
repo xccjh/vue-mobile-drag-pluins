@@ -222,6 +222,7 @@
   };
 
   var mobileDragDirectives = {//点击事件
+
     async beforeMount(el, binding) {
       if (typeof binding.value == 'function') {
         binding.value((opts) => {
@@ -235,10 +236,31 @@
         throw new Error('v-mobile-drag directives params must to be function and return option object');
       }
     },
+
+    async inserted(el, binding) {
+      if (typeof binding.value == 'function') {
+        binding.value((opts) => {
+          // @ts-ignore
+          el.instance = new mobileDrag({
+            dragEle: el,
+            ...opts,
+          });
+        });
+      } else {
+        throw new Error('v-mobile-drag directives params must to be function and return option object');
+      }
+    },
+
     beforeUnmount: function (el, binding) {
       // @ts-ignore
       el.instance && el.instance.removeEvent(el);
     },
+
+    unbind: function (el, binding) {
+      // @ts-ignore
+      el.instance && el.instance.removeEvent(el);
+    },
+
   };
 
   var directives = {
