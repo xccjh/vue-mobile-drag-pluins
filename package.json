@@ -1,6 +1,6 @@
 {
   "name": "@xccjh/vue-mobile-drag",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "vue仿原生移动端拖拽功能实现插件",
   "main": "index.js",
   "scripts": {

@@ -227,10 +227,9 @@
       if (typeof binding.value == 'function') {
         binding.value((opts) => {
           // @ts-ignore
-          el.instance = new mobileDrag({
+          el.instance = new mobileDrag(Object.assign({
             dragEle: el,
-            ...opts,
-          });
+          }, opts));
         });
       } else {
         throw new Error('v-mobile-drag directives params must to be function and return option object');
@@ -241,10 +240,9 @@
       if (typeof binding.value == 'function') {
         binding.value((opts) => {
           // @ts-ignore
-          el.instance = new mobileDrag({
+          el.instance = new mobileDrag(Object.assign({
             dragEle: el,
-            ...opts,
-          });
+          }, opts));
         });
       } else {
         throw new Error('v-mobile-drag directives params must to be function and return option object');
